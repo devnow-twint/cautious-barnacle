@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YogaxD Free Like TikTok</title>
+  <meta name="description" content="Dapatkan likes TikTok gratis! Claim sekarang!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-stars" id="bgStars"></div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">
+        <span class="title-free">YogaxD</span>
+        <span class="title-tiktok">Free Like TikTok</span>
+      </h1>
+      <p class="subtitle amiri">Dapatkan ribuan likes secara instan!</p>
+      <div class="badge">
+        <span class="badge-icon">🎁</span>
+        <span>Gratis <strong id="maxLikesDisplay">30</strong> Likes!</span>
+      </div>
+    </header>
+
+    <!-- Claim Card -->
+    <main class="claim-card">
+      <div class="card-ornament top-left"></div>
+      <div class="card-ornament top-right"></div>
+      <div class="card-ornament bottom-left"></div>
+      <div class="card-ornament bottom-right"></div>
+
+      <div class="card-header">
+        <h2>🎉 Claim Likes Gratis</h2>
+        <p>Masukkan link video TikTok kamu di bawah ini</p>
+      </div>
+
+      <form id="claimForm" autocomplete="off">
+        <div class="input-group">
+          <div class="input-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+            </svg>
+          </div>
+          <input 
+            type="url" 
+            id="tiktokUrl" 
+            placeholder="https://www.tiktok.com/@username/video/..." 
+            required
+            autocomplete="off"
+          >
+        </div>
+
+        <!-- Timer Section -->
+        <div class="timer-section" id="timerSection">
+          <div class="timer-ring">
+            <svg viewBox="0 0 100 100">
+              <circle class="timer-bg" cx="50" cy="50" r="45"/>
+              <circle class="timer-progress" id="timerProgress" cx="50" cy="50" r="45"/>
+            </svg>
+            <div class="timer-text" id="timerText">--</div>
+          </div>
+          <p class="timer-label">Tunggu sebentar ya... ⏳</p>
+        </div>
+
+        <!-- Claim Button -->
+        <button type="submit" id="claimBtn" class="claim-btn" disabled>
+          <span class="btn-content">
+            <span class="btn-icon">🔒</span>
+            <span class="btn-text" id="btnText">Tunggu Timer...</span>
+          </span>
+          <div class="btn-shimmer"></div>
+        </button>
+      </form>
+
+      <!-- Status Messages -->
+      <div id="statusMessage" class="status-message hidden"></div>
+    </main>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="feature-item">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-text">
+          <h3>Instant</h3>
+          <p>Likes langsung dikirim</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🛡️</div>
+        <div class="feature-text">
+          <h3>Aman</h3>
+          <p>100% aman & gratis</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">💎</div>
+        <div class="feature-text">
+          <h3>Eksklusif</h3>
+          <p>1x claim per hari</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="copyright">&copy; 2026 YogaxD Free Like TikTok</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
