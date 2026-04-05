@@ -43,7 +43,7 @@ app.use('/api', cors({
 
 app.use('/api', (req, res, next) => {
   const referer = req.get('Referer');
-  
+
   if (!referer) {
     return res.status(403).json({ success: false, message: 'Forbidden: Missing Referer' });
   }
@@ -204,7 +204,7 @@ app.post('/api/claim', claimLimiter, async (req, res) => {
       const payload = {
         api_id: parseInt(process.env.FAYUPEDIA_API_ID),
         api_key: process.env.FAYUPEDIA_API_KEY,
-        service: 1611,
+        service: 1406,
         target: url,
         quantity: maxLikes
       };
