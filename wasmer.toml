@@ -1,0 +1,16 @@
+[package]
+name = "devleoleo-ops/minnaaa"
+version = "0.1.0"
+description = "TikTok Free Likes Express Server"
+
+[dependencies]
+"wasmer/winterjs" = "^1.2.0"
+
+[fs]
+public = "public"
+node_modules = "node_modules"
+
+[[command]]
+name = "start"
+runner = "wasmer/winterjs"
+annotations = { wasi = { main-args = ["server.js"] } }
