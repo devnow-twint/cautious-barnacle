@@ -1,4 +1,4 @@
 name: tiktok-free
-owner: devleoleo-ops
+owner: devnow-twint
 package: .
 kind: wasmer.io/App.v0
