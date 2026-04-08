@@ -1,4 +1,4 @@
-kind: wasmer.io/App.v0
-name: minnaaa
+name: tiktok-free
 owner: devleoleo-ops
 package: .
+kind: wasmer.io/App.v0

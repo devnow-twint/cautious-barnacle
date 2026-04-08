@@ -1,0 +1,3 @@
+module.exports=[98421,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsxs)("html",{lang:"id",children:[(0,b.jsxs)("head",{children:[(0,b.jsx)("link",{rel:"preconnect",href:"https://fonts.googleapis.com"}),(0,b.jsx)("link",{rel:"preconnect",href:"https://fonts.gstatic.com",crossOrigin:"anonymous"}),(0,b.jsx)("link",{href:"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Amiri:wght@400;700&display=swap",rel:"stylesheet"})]}),(0,b.jsx)("body",{suppressHydrationWarning:!0,children:a})]})},"metadata",0,{title:"YogaxD Free Like TikTok",description:"Dapatkan likes TikTok gratis! Claim sekarang!"}])},46122,a=>{a.n(a.i(98421))}];
+
+//# sourceMappingURL=app_layout_jsx_0q7fn~j._.js.map
